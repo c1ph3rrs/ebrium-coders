@@ -2,7 +2,7 @@
 
 :root {
 
-  --header-hight: 3rem;
+  --header-height: 3rem;
 
   /* Colors mode */
 
@@ -190,4 +190,9 @@ img {
 
 @media screen and (max-width: 576px) {}
 
-@media screen and (max-width: 350px) {}
+@media screen and (max-width: 350px) {
+  .container{
+    margin-right: var(--mb-1);
+    margin-left: var(--mb-1);
+  }
+}
