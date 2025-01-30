@@ -48,6 +48,17 @@
 }
 
 
+.scroll-header {
+    box-shadow: 0 -1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.nav__logo-img {
+    width: 200px;
+    height: 100px;
+    margin-top: 20px;
+}
+
+
 /* ===================BREAKPOINTS==================== */
 /* for medium devices */
 @media screen and (max-width: 768px) {
