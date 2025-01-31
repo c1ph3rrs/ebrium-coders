@@ -7,19 +7,13 @@ export const Data = [
     {
         id: 1,
         image: Image1,
-        title: 'John Doe',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+        title: 'Aqua Station',
+        description: 'Exceptional service! Their web and mobile app solutions transformed our business operations.',
     },
     {
         id: 2,
         image: Image2,
-        title: 'Jane Doe',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
-    },
-    {
-        id: 3,
-        image: Image3,
-        title: 'John Doe',
-        description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, quos.',
+        title: 'Aqua Station',
+        description: 'Exceptional service! Their web and mobile app solutions transformed our business operations.',
     }
 ]

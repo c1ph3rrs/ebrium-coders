@@ -14,7 +14,7 @@ import { Pagination } from 'swiper/modules';
 function Testimonials() {
     return (
         <section className="testimonials container section">
-            <h2 className="section__title">My Clients Say</h2>
+            <h2 className="section__title">Our Clients Say</h2>
             <span className="section__subtitle">Testimonials</span>
 
 

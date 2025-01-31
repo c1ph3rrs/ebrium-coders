@@ -1,17 +1,17 @@
 import React from 'react';
 import './about.css';
-import AboutImg from '../../assets/about.jpg';
+import ebrium from '../../assets/ebrium.jpg';
 import CV from '../../assets/cvofib.pdf';
 import Info from './Info';
 
 const About = () => {
   return (
     <section className="about section" id="about">
-        <h2 className="section__title">About Me</h2>
-        <span className="section__subtitle">My Introduction</span>
+        <h2 className="section__title">About Us</h2>
+        <span className="section__subtitle">Who We Are</span>
 
         <div className="about__container container grid">
-              <img src={AboutImg} alt="Ibrahim Akram" className="about__img" />
+              <img src={ebrium} alt="Ibrahim Akram" className="about__img" />
               
 
               <div className="about__data">
@@ -19,7 +19,7 @@ const About = () => {
                 <Info />
 
                 <p className="about__description">
-                      Full Stack Developer with a passion for creating user-friendly and efficient web applications.
+                      We are a dynamic team of skilled developers specializing in full-stack development, dedicated to delivering innovative and scalable solutions. With expertise in both frontend and backend technologies, we transform ideas into robust, user-centric applications that drive business success.
                 </p>
 
                   <a href={CV} download="" className="button button--flex">Download CV
