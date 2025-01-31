@@ -18,7 +18,6 @@
   margin-bottom: var(--mb-1-5);
 }
 
-
 .skills__box {
   display: flex;
   justify-content: center;
@@ -31,18 +30,22 @@
   row-gap: 1rem;
 }
 
-
 .skills__data {
   display: flex;
-  column-gap: 0.5rem;
+  flex-direction: column;
+  row-gap: 0.5rem;
 }
 
+.skills__header {
+  display: flex;
+  column-gap: 0.5rem;
+  align-items: center;
+}
 
 .skills .bx-badge-check {
   font-size: 1rem;
   color: var(--title-color);
 }
-
 
 .skills__name {
   font-size: var(--normal-font-size);
@@ -50,12 +53,10 @@
   line-height: 20px;
 }
 
-
 .skills__level {
   font-size: var(--tiny-font-size);
-  text-align: end;
+  margin-left: 1.5rem;
 }
-
 
 @media screen and (max-width: 992px) {
     .skills__container {

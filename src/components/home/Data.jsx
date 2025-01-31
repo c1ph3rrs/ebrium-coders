@@ -56,7 +56,7 @@ const Data = () => {
           </h1>
           <h3 className="home__subtitle">Software Company</h3>
           <p className="home__description">We are a dynamic software company based in Pakistan, specializing in creating innovative digital solutions. Our passionate team of engineers delivers high-quality <b>Web Applications</b>, <b>Mobile Apps</b>, <b>Custom API'S</b>, <b>AWS Cloud Resources</b>, and <b>AI Solutions</b> to help businesses thrive in the digital age.</p>
-          <a href="" id="contact" className="say__hello button button-flex">
+          <a href="https://fiverr.com/dev__ib" target="_blank" id="contact" className="say__hello button button-flex">
               Say Hello
           <svg
                   className="button__icon"
